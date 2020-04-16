@@ -1,0 +1,21 @@
+$font-stack: Roboto, sans-serif;
+$primary-color: #000;
+$secondary-color: #777;
+$border: 5px solid $primary-color;
+
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+    border: $border
+}
+
+div {
+    a {
+        p {
+            color: $secondary-color;
+        }
+        b {
+            color: antiquewhite;
+        }
+    }
+}
